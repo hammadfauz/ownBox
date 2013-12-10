@@ -1,0 +1,21 @@
+requesthandlers.js	create single item request handler getobject/links/song/artist/<try number>>/cellID
+requesthandlers.js	trynumber 0,1,2,3/'' : youtube link, Not right?
+requesthandlers.js	trynumber 4 : youtubelink5, edit song info and retry
+client/myscript.js	on click Not right? > assign id to cell; send request with cellID
+client/myscript.js	on edit song info.... > put input text boxes, send request with input from textbox, trynumber 1, cellID
+
+Model Details
+
+User
+	ID
+	Email
+	Password
+
+Library
+	UserID
+	ItemID
+
+Item
+	ID
+	Artist
+	Song
